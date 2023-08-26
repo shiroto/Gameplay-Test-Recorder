@@ -1,0 +1,19 @@
+{
+    "name": "TwoGuyGames.GTR.InputManagerAdapter",
+    "references": [
+        "GUID:eef92a2a114ebc54c9c1e3da6dcf2e8e",
+        "GUID:aa8c6ae79be4d4d418d959bb035d8644"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "TwoGuyGames.GTR.Core.dll",
+        "0Harmony.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,17 @@
+{
+    "name": "TwoGuyGames.GTR.Core",
+    "references": [
+        "GUID:aa8c6ae79be4d4d418d959bb035d8644"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "0Harmony.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,29 @@
+{
+    "name": "TwoGuyGames.GTR.TestRunnerIntegration",
+    "rootNamespace": "",
+    "references": [
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "TwoGuyGames.GTR.Core",
+        "TwoGuyGames.GTR.Data",
+        "TwoGuyGames.GTR.Runtime",
+        "TwoGuyGames.GTR.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll",
+        "TwoGuyGames.GTR.Core.dll",
+        "TwoGuyGames.GTR.Editor.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

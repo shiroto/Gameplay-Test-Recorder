@@ -1,0 +1,2 @@
+This asset is governed by the Asset Store EULA (https://unity3d.com/legal/as_terms); however, the following components are governed by the licenses indicated below:
+A. [0Harmony.dll] [MIT] [Copyright (c) 2017 Andreas Pardeike]

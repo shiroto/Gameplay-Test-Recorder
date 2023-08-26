@@ -1,0 +1,21 @@
+{
+    "name": "TwoGuyGames.GTR.Editor",
+    "references": [
+        "GUID:aa8c6ae79be4d4d418d959bb035d8644",
+        "GUID:eef92a2a114ebc54c9c1e3da6dcf2e8e"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "0Harmony.dll",
+        "TwoGuyGames.GTR.Runtime.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

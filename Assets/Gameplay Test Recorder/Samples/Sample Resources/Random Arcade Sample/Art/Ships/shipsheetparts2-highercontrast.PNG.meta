@@ -1,0 +1,314 @@
+fileFormatVersion: 2
+guid: 2f58cc3be28f1f04cbfdbc23d1231c82
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7059981260924881693
+    second: shipsheetparts2-highercontrast_0
+  - first:
+      213: -7800546796339852178
+    second: shipsheetparts2-highercontrast_1
+  - first:
+      213: -3645019738754759079
+    second: shipsheetparts2-highercontrast_2
+  - first:
+      213: -4970474924445536045
+    second: shipsheetparts2-highercontrast_3
+  - first:
+      213: -2256332010205555595
+    second: shipsheetparts2-highercontrast_4
+  - first:
+      213: 5633145710951233655
+    second: shipsheetparts2-highercontrast_5
+  - first:
+      213: -8119156537735313
+    second: shipsheetparts2-highercontrast_6
+  - first:
+      213: -8734304925276012987
+    second: shipsheetparts2-highercontrast_7
+  - first:
+      213: -6850459531329512323
+    second: shipsheetparts2-highercontrast_8
+  - first:
+      213: -201821595356549115
+    second: shipsheetparts2-highercontrast_9
+  - first:
+      213: 1606518945913612273
+    second: shipsheetparts2-highercontrast_10
+  - first:
+      213: 4931783169954313957
+    second: shipsheetparts2-highercontrast_11
+  - first:
+      213: -8175272259390264767
+    second: shipsheetparts2-highercontrast_12
+  - first:
+      213: -8081396165587123817
+    second: shipsheetparts2-highercontrast_13
+  - first:
+      213: -6305037013302746565
+    second: shipsheetparts2-highercontrast_14
+  - first:
+      213: 5992730515601249385
+    second: shipsheetparts2-highercontrast_15
+  - first:
+      213: -4622934494328611829
+    second: shipsheetparts2-highercontrast_16
+  - first:
+      213: 9050397632912757078
+    second: shipsheetparts2-highercontrast_17
+  - first:
+      213: 2645660050575913443
+    second: shipsheetparts2-highercontrast_18
+  - first:
+      213: -261628250001228140
+    second: shipsheetparts2-highercontrast_19
+  - first:
+      213: -4041473851188535569
+    second: shipsheetparts2-highercontrast_20
+  - first:
+      213: 6395602653335286013
+    second: shipsheetparts2-highercontrast_21
+  - first:
+      213: -1060561279545181284
+    second: shipsheetparts2-highercontrast_22
+  - first:
+      213: -588555606095511184
+    second: shipsheetparts2-highercontrast_23
+  - first:
+      213: -1521411187475242839
+    second: shipsheetparts2-highercontrast_24
+  - first:
+      213: -8121966239392199519
+    second: shipsheetparts2-highercontrast_25
+  - first:
+      213: 1367888341703757099
+    second: shipsheetparts2-highercontrast_26
+  - first:
+      213: 7632807098715762881
+    second: shipsheetparts2-highercontrast_27
+  - first:
+      213: -2266865501800478255
+    second: shipsheetparts2-highercontrast_28
+  - first:
+      213: -3111147690335622653
+    second: shipsheetparts2-highercontrast_29
+  - first:
+      213: 4165672609477977750
+    second: shipsheetparts2-highercontrast_30
+  - first:
+      213: 8878695075506689049
+    second: shipsheetparts2-highercontrast_31
+  - first:
+      213: -2570361068023162650
+    second: shipsheetparts2-highercontrast_32
+  - first:
+      213: 3190100994801926836
+    second: shipsheetparts2-highercontrast_33
+  - first:
+      213: -3527713244824389750
+    second: shipsheetparts2-highercontrast_34
+  - first:
+      213: 1001379773548400345
+    second: shipsheetparts2-highercontrast_35
+  - first:
+      213: -753899383317426474
+    second: shipsheetparts2-highercontrast_36
+  - first:
+      213: 2490435611261442240
+    second: shipsheetparts2-highercontrast_37
+  - first:
+      213: 5377349763507779529
+    second: shipsheetparts2-highercontrast_38
+  - first:
+      213: -1480637702713125247
+    second: shipsheetparts2-highercontrast_39
+  - first:
+      213: -7102271573496367205
+    second: shipsheetparts2-highercontrast_40
+  - first:
+      213: 1972308015986752441
+    second: shipsheetparts2-highercontrast_41
+  - first:
+      213: -6534007687077386987
+    second: shipsheetparts2-highercontrast_42
+  - first:
+      213: -6682215662562652931
+    second: shipsheetparts2-highercontrast_43
+  - first:
+      213: 7914471937309375619
+    second: shipsheetparts2-highercontrast_44
+  - first:
+      213: 66272956398422601
+    second: shipsheetparts2-highercontrast_45
+  - first:
+      213: -8321754857470217428
+    second: shipsheetparts2-highercontrast_46
+  - first:
+      213: 1172936365479687845
+    second: shipsheetparts2-highercontrast_47
+  - first:
+      213: -5081682801067020732
+    second: shipsheetparts2-highercontrast_48
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shipsheetparts2-highercontrast_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 397
+        width: 43
+        height: 33
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e478a5d278e50e90800000000000000
+      internalID: -7059981260924881693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shipsheetparts2-highercontrast_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 357
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c0a5e8404eeb390800000000000000
+      internalID: -7800546796339852178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a6b15a871dfce6641a3861485155c0a1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      shipsheetparts2-highercontrast_0: -7059981260924881693
+      shipsheetparts2-highercontrast_1: -7800546796339852178
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

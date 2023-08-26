@@ -1,0 +1,18 @@
+{
+	"name": "com.tgg.replay",
+	"version": "0.4.0",
+	"displayName": "Test Replay",
+	"description": "Recording and replaying of manual tests.",
+	"unity": "2020.1",
+	"dependencies": {},
+	"keywords": [
+		"automated",
+		"testing",
+		"quality"
+	],
+	"author": {
+		"name": "2GuyGames",
+		"email": "info@2guygames.com",
+		"url": "https://www.2guygames.com"
+	}
+}

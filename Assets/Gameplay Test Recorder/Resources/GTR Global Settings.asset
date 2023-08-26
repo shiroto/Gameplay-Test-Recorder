@@ -1,0 +1,329 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa7965d30aac265439d2e904b6f8be8c, type: 3}
+  m_Name: GTR Global Settings
+  m_EditorClassIdentifier: 
+  settings:
+    typesToPatch:
+    - mockedFields: []
+      patchedMethods: []
+      recordedSystems: 16
+      staticMocks: []
+      target:
+        fullName: UnityEngine.Mathf
+        m_AssemblyName: UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_AssemblyQualifiedName: UnityEngine.Mathf, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_Name: Mathf
+    - mockedFields: []
+      patchedMethods: []
+      recordedSystems: 1
+      staticMocks: []
+      target:
+        fullName: UnityEngine.SendMouseEvents
+        m_AssemblyName: UnityEngine.InputLegacyModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_AssemblyQualifiedName: UnityEngine.SendMouseEvents, UnityEngine.InputLegacyModule,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_Name: SendMouseEvents
+    - mockedFields: []
+      patchedMethods: []
+      recordedSystems: 1
+      staticMocks: []
+      target:
+        fullName: UnityEngine.UIElements.DefaultEventSystem+Input
+        m_AssemblyName: UnityEngine.UIElementsModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_AssemblyQualifiedName: UnityEngine.UIElements.DefaultEventSystem+Input,
+          UnityEngine.UIElementsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_Name: Input
+    - mockedFields: []
+      patchedMethods: []
+      recordedSystems: 8
+      staticMocks: []
+      target:
+        fullName: UnityEngine.WWWForm
+        m_AssemblyName: UnityEngine.UnityWebRequestModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_AssemblyQualifiedName: UnityEngine.WWWForm, UnityEngine.UnityWebRequestModule,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_Name: WWWForm
+    - mockedFields: []
+      patchedMethods: []
+      recordedSystems: 8
+      staticMocks: []
+      target:
+        fullName: UnityEngine.Networking.UnityWebRequest
+        m_AssemblyName: UnityEngine.UnityWebRequestModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_AssemblyQualifiedName: UnityEngine.Networking.UnityWebRequest, UnityEngine.UnityWebRequestModule,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_Name: UnityWebRequest
+    - mockedFields: []
+      patchedMethods: []
+      recordedSystems: 8
+      staticMocks: []
+      target:
+        fullName: TMPro.EditorUtilities.TMPro_FontAssetCreatorWindow
+        m_AssemblyName: Unity.TextMeshPro.Editor, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_AssemblyQualifiedName: TMPro.EditorUtilities.TMPro_FontAssetCreatorWindow,
+          Unity.TextMeshPro.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_Name: TMPro_FontAssetCreatorWindow
+    - mockedFields: []
+      patchedMethods: []
+      recordedSystems: 1
+      staticMocks: []
+      target:
+        fullName: ButtonController
+        m_AssemblyName: GTR.Samples, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyQualifiedName: ButtonController, GTR.Samples, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_Name: ButtonController
+    - mockedFields: []
+      patchedMethods: []
+      recordedSystems: 1
+      staticMocks: []
+      target:
+        fullName: GameManager
+        m_AssemblyName: GTR.Samples, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyQualifiedName: GameManager, GTR.Samples, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_Name: GameManager
+    - mockedFields: []
+      patchedMethods: []
+      recordedSystems: 1
+      staticMocks: []
+      target:
+        fullName: NoteObject
+        m_AssemblyName: GTR.Samples, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyQualifiedName: NoteObject, GTR.Samples, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_Name: NoteObject
+    - mockedFields: []
+      patchedMethods: []
+      recordedSystems: 8
+      staticMocks: []
+      target:
+        fullName: NoteSpawner
+        m_AssemblyName: GTR.Samples, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyQualifiedName: NoteSpawner, GTR.Samples, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        m_Name: NoteSpawner
+    - mockedFields: []
+      patchedMethods: []
+      recordedSystems: 1
+      staticMocks: []
+      target:
+        fullName: TwoGuyGames.GTR.Samples.CharacterController_Legacy
+        m_AssemblyName: GTR.Samples, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyQualifiedName: TwoGuyGames.GTR.Samples.CharacterController_Legacy,
+          GTR.Samples, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_Name: CharacterController_Legacy
+    - mockedFields: []
+      patchedMethods: []
+      recordedSystems: 1
+      staticMocks: []
+      target:
+        fullName: TwoGuyGames.GTR.Samples.RTSInput_Legacy
+        m_AssemblyName: GTR.Samples, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyQualifiedName: TwoGuyGames.GTR.Samples.RTSInput_Legacy, GTR.Samples,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_Name: RTSInput_Legacy
+    - mockedFields: []
+      patchedMethods: []
+      recordedSystems: 1
+      staticMocks: []
+      target:
+        fullName: TwoGuyGames.GTR.Samples.ShipController
+        m_AssemblyName: GTR.Samples, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyQualifiedName: TwoGuyGames.GTR.Samples.ShipController, GTR.Samples,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_Name: ShipController
+    - mockedFields: []
+      patchedMethods: []
+      recordedSystems: 8
+      staticMocks: []
+      target:
+        fullName: TwoGuyGames.GTR.Samples.UnityRandomEnemySpawner+<DoSpawn>d__5
+        m_AssemblyName: GTR.Samples, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyQualifiedName: TwoGuyGames.GTR.Samples.UnityRandomEnemySpawner+<DoSpawn>d__5,
+          GTR.Samples, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_Name: <DoSpawn>d__5
+    - mockedFields: []
+      patchedMethods: []
+      recordedSystems: 16
+      staticMocks: []
+      target:
+        fullName: TwoGuyGames.GTR.Samples.SystemRandomEnemySpawner+<DoSpawn>d__7
+        m_AssemblyName: GTR.Samples, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyQualifiedName: TwoGuyGames.GTR.Samples.SystemRandomEnemySpawner+<DoSpawn>d__7,
+          GTR.Samples, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_Name: <DoSpawn>d__7
+    - mockedFields: []
+      patchedMethods: []
+      recordedSystems: 24
+      staticMocks: []
+      target:
+        fullName: TwoGuyGames.GTR.Samples.TopDown_SystemEnemyRandomSpawner+<DoSpawn>d__6
+        m_AssemblyName: GTR.Samples, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyQualifiedName: TwoGuyGames.GTR.Samples.TopDown_SystemEnemyRandomSpawner+<DoSpawn>d__6,
+          GTR.Samples, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_Name: <DoSpawn>d__6
+    - mockedFields: []
+      patchedMethods: []
+      recordedSystems: 1
+      staticMocks: []
+      target:
+        fullName: UnityEngine.EventSystems.BaseInput
+        m_AssemblyName: UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyQualifiedName: UnityEngine.EventSystems.BaseInput, UnityEngine.UI,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_Name: BaseInput
+    - mockedFields:
+      - fieldName: m_ProcessingEvent
+        flags: 36
+      patchedMethods: []
+      recordedSystems: 0
+      staticMocks:
+      - callee:
+          fullName: UnityEngine.Event
+          m_AssemblyName: UnityEngine.IMGUIModule, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          m_AssemblyQualifiedName: UnityEngine.Event, UnityEngine.IMGUIModule, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          m_Name: Event
+        methods: []
+      target:
+        fullName: UnityEngine.UI.InputField
+        m_AssemblyName: UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyQualifiedName: UnityEngine.UI.InputField, UnityEngine.UI, Version=1.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_Name: InputField
+    - mockedFields: []
+      patchedMethods: []
+      recordedSystems: 0
+      staticMocks:
+      - callee:
+          fullName: UnityEngine.RectTransformUtility
+          m_AssemblyName: UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          m_AssemblyQualifiedName: UnityEngine.RectTransformUtility, UnityEngine.UIModule,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          m_Name: RectTransformUtility
+        methods:
+        - args:
+          - fullName: UnityEngine.RectTransform
+            m_AssemblyName: UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+            m_AssemblyQualifiedName: UnityEngine.RectTransform, UnityEngine.CoreModule,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+            m_Name: RectTransform
+          - fullName: UnityEngine.Vector2
+            m_AssemblyName: UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+            m_AssemblyQualifiedName: UnityEngine.Vector2, UnityEngine.CoreModule,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+            m_Name: Vector2
+          flags: 0
+          mode: 1
+          name: RectangleContainsScreenPoint
+        - args:
+          - fullName: UnityEngine.RectTransform
+            m_AssemblyName: UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+            m_AssemblyQualifiedName: UnityEngine.RectTransform, UnityEngine.CoreModule,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+            m_Name: RectTransform
+          - fullName: UnityEngine.Vector2
+            m_AssemblyName: UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+            m_AssemblyQualifiedName: UnityEngine.Vector2, UnityEngine.CoreModule,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+            m_Name: Vector2
+          - fullName: UnityEngine.Camera
+            m_AssemblyName: UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+            m_AssemblyQualifiedName: UnityEngine.Camera, UnityEngine.CoreModule,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+            m_Name: Camera
+          flags: 0
+          mode: 1
+          name: RectangleContainsScreenPoint
+        - args:
+          - fullName: UnityEngine.RectTransform
+            m_AssemblyName: UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+            m_AssemblyQualifiedName: UnityEngine.RectTransform, UnityEngine.CoreModule,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+            m_Name: RectTransform
+          - fullName: UnityEngine.Vector2
+            m_AssemblyName: UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+            m_AssemblyQualifiedName: UnityEngine.Vector2, UnityEngine.CoreModule,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+            m_Name: Vector2
+          - fullName: UnityEngine.Camera
+            m_AssemblyName: UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+            m_AssemblyQualifiedName: UnityEngine.Camera, UnityEngine.CoreModule,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+            m_Name: Camera
+          - fullName: UnityEngine.Vector4
+            m_AssemblyName: UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+            m_AssemblyQualifiedName: UnityEngine.Vector4, UnityEngine.CoreModule,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+            m_Name: Vector4
+          flags: 0
+          mode: 1
+          name: RectangleContainsScreenPoint
+      target:
+        fullName: UnityEngine.UI.GraphicRaycaster
+        m_AssemblyName: UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyQualifiedName: UnityEngine.UI.GraphicRaycaster, UnityEngine.UI,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_Name: GraphicRaycaster
+    - mockedFields:
+      - fieldName: m_HasFocus
+        flags: 36
+      patchedMethods: []
+      recordedSystems: 0
+      staticMocks: []
+      target:
+        fullName: UnityEngine.EventSystems.EventSystem
+        m_AssemblyName: UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyQualifiedName: UnityEngine.EventSystems.EventSystem, UnityEngine.UI,
+          Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_Name: EventSystem
+    - mockedFields:
+      - fieldName: m_ProcessingEvent
+        flags: 36
+      patchedMethods: []
+      recordedSystems: 0
+      staticMocks:
+      - callee:
+          fullName: UnityEngine.Event
+          m_AssemblyName: UnityEngine.IMGUIModule, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          m_AssemblyQualifiedName: UnityEngine.Event, UnityEngine.IMGUIModule, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          m_Name: Event
+        methods: []
+      target:
+        fullName: TMPro.TMP_InputField
+        m_AssemblyName: Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyQualifiedName: TMPro.TMP_InputField, Unity.TextMeshPro, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_Name: TMP_InputField
+    usedInput: 1

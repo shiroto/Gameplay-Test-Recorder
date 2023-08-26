@@ -1,0 +1,544 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1656c285e28c5e54d8770456e06c6037, type: 3}
+  m_Name: TopDown Rewired Replay
+  m_EditorClassIdentifier: 
+  lastResult: 0
+  recording:
+    config:
+      framerate: 30
+      resolution: {x: 600, y: 480}
+      sceneGuid: 0c4284da9832c2640ae9485d6bea2c45
+    endState:
+      id: 0
+    frameCount: 125
+    id: fa6411bb842414a46b85dad80cb7c7de
+    recordKeys:
+    - EventSystem.OnApplicationFocus
+    - REWIRED
+    - System.Random, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - UnityEngine.Random, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    - EventSystem.get_isFocused
+    - Timekeeper
+    - MOUSE
+    - TopDown_RewiredController.Update
+    - <DoSpawn>d__6.MoveNext
+    serializedRecords: ed9dcf8e9cc7b1e5f706fc125c938d8cc8c87fde5577557b6168732dcfc6100c5db96d10909a03529a198dc0279bc53cd2bcc24416d579a2881c88f2b8235880787ded82697564e717f93b27becccaf83fffeb7ffff4e2edc3376fdefefddd8b3ffcf5a717affffee20fe9fdcb0f1fe8fd572ff56ffff1f0f6e1f19b07fd1ffcf4e2bf3dbc7df7facda3feddcb17e9e73ff3bffffec7fffa30fff39b6fbf7ea7ffc317b76fde7cfb1fe79ffbe2e58bc7f9df7cf9dfdffcf1871ffff8f5770fef6efef8e57fdcdcbd79fba07ff7f5bbeffe5f7ff9fee58bbf7ffdfdd7e7b05f7ffb83fefcefdffef0f0fefd8a4c7e91fff1f5b7ef6c68de85fef2e1ed77af1f7f78f714f82f8fafbffff1f4f8cfd78f0f37c72f0e5faea0f7873f9dfe76f8f31726d07bfdf3fbdfed1ec6153e83df26e2b789f09888c5a99f3ff0d387fcf4419e3e94a70ff5e9437bfad09f3e8cf503f1a3d7cfa6f5c369fd745a3f9ed6cfa7158056045a2168c5e0158331fe1583570c5e3178c5e01583570c5e3178c5c82b465e31322669c5c82b465e31f28a91578cbc62e41543560c593164c5103c891543560c593164c5901543568cb2629415a3ac1865c52878dc2b465931ca8a51568cb262d415a3ae1875c5a82b465d312a726ac5a82b465d31ea8ad1568cb662b415a3ad186dc5682b4643e2ae186dc5682b465f31fa8ad1578cbe62f415a3af187dc5e8581d2b465f31c68a31568cb1628c1563ac1863c5182bc658310696a05983588409ab30611926acc3848598b012139662c25a4c588c09d1ec924734b3e8cdaa37cbdeac7bb3f0cdca374b1f6b9fb0f8890d61100deb9f000002010808203080000102050818207080b2011aa201050416106040a0010107041e1080402002010924869f88062a10b040e002010c043210d0406003010e043a5031b84634008240080222088c20408240090226089c208082aa510744032b08b020d082800b022f08c0201083800c0233a8193142346083c00d023808e420a083c00e023c08f420e083bad13e4403410808213084001102450818217084001202496818a9355a0bb1054b182c61b084c112064b182c61b084c112064b988cb4231a58c2600983250c963058c2600983256c7c843112d649209af112c64c183761ec84f113c65080250c963058c2d9181744034b182c61b084c112064b182c61b084c112064b588c4f4234b084c112064b182c61b084cb555a6b97c8db7ad725720e8b2c61914b58e41a16b98545ee61914758e44358e4dbb0c87761918f61914f6191efa32253983e53983e53983e53983e53983e53983e53983e53983e53983e53983e53983e53983e53983e53983e53983e53983e73983e73983e73983e73983e73983e73983e73983e73983e73983e73983e73983e73983e73983e73983e73983e73983ee7307dce61fa9cc3f43987e9730ed3e71ca6cf394c9f73983ee7307dce61fa9cc3f43987e9730ed3e71ca6cf394c9f73983e4b983e4b983e4b983e4b983e4b983e4b983e4b983e4b983e4b983e4b983e4b983e4b983e4b983e4b983e4b983e4b983e97307d2e61fa5cc2f4b984e97309d3e712a6cf254c9f4b983e97307d2e61fa5cc2f4b984e97309d3e712a6cf254c9f4b983ed7307dae61fa5cc3f4b986e9730dd3e71aa6cf354c9f6b983ed7307dae61fa5cc3f4b986e9730dd3e71aa6cf354c9f6b983eb7307d6e61fadcc2f4b985e9730bd3e716a6cf2d4c9f5b983eb7307d6e61fadcc2f4b985e9730bd3e716a6cf2d4c9f5b983ef7307dee61fadcc3f4b987e9730fd3e71ea6cf3d4c9f7b983ef7307dee61fadcc3f4b987e9730fd3e71ea6cf3d4c9f7b983e8f307d1e61fa3cc2f47984e9f308d3e711a6cf234c9f47983e8f307d1e61fa3cc2f47984e9f308d3e711a6cf234c9f47983e1fc2f4f910a6cf87307d3e84e9f3214c9f0f61fa7c08d3e743983e1fc2f4f910a6cf87307d3e84e9f3214c9f0f61fa7c08d3e743983edf86e9f36d983edf86e9f36d983edf86e9f36d983edf86e9f36d983edf86e9f36d983edf86e9f36d983edf86e9f36d983edf86e9f36d983edf85e9f35d983edf85e9f35d983edf85e9f35d983edf85e9f35d983edf85e9f35d983edf85e9f35d983edf85e9f35d983edf85e9f35d983e1fc3f4f918a6cfc7307d3e86e9f3314c9f8f61fa7c0cd3e763983e1fc3f4f918a6cfc7307d3e86e9f3314c9f8f61fa7c0cd3e763983e9fc2f4f914a6cfa7307d3e85e9f3294c9f4f61fa7c0ad3e753983e9fc2f4f914a6cfa7307d3e85e9f3294c9f4f61fa7c0ad3e753983edf87e9f37d983edf87e9f37d983edf3beaf33fbefef69d0ded28d01f877654e88f433b4af4c7a11d35fae3d08e22fd71684795fe38f456a6bf7c78fbddebc71fde3d05fecbe3ebef7f3c3dfef3f5e3c3cdf18bc3972be8fde14fa7bf1dfefc8509f45efffcfe773fbd787b1ebafed37ffdd035187dac571fe1a70fab37f1ea4cbcfa12afaec4ab27f1ea488c1ed9a625fdfa649ab6a31d3a5a95a38d385a7ca3fd365a63a36d355a4aa3dd335a31a34d32ba24af4f68ad8cceca68acbc62a065343a46a36134fa45a35d34ba45a359347a45a355343a45a35134fa44a34d34ba44a349347a44a345343a44a34134fa43a3d53c3acda3d13cfacca3cd3cbacca3c93c7acca3c53c3acca3c13cfacba3bd3cbacba3b93c7acba3b53c3acba3b13cfacaa3ad3cbacaa3a93c7acaa3a53c3acaa3a13cfac9a39d3cbac9a3993c7ac9a3953c3ac9a3913cfac8a38d3cbac8a3893c7ac8a3853c3ac8a3813cfac7a37d3cbac7a3793c7ac7a375fc306b108b109de3099de3099de3099de3099de3099de3099de3099de3099de3c92e7944338bdeac7ab3eccdba370bdfac7cb3f4b1f6098b9fd81006d1b0fe4901f0d5bfda1bfdfedb375f7fffef477eba4900febe37faf345a6f1e14f293c6a215d8518cad6cc3edf504ace99fbe8ad969e58e988916ccdedf38da457fdd3471d79706b1773b235bbcf36124dedd9a6750c1a5c69a8c660245beffb7c2329b970298944e745a76598916cadf0f38da4b74c6d8cc6d4a8f56c9fced6193fdb4898932e195d3c0aae21d94ec9d6273fdf404a1ebd888ea115d6256406b275cdcf37107d36797e755b27a5a67c91255b13fd6c23c9fa6caa906649aaa2ff6e06b2b5d4cf37107d36a3cf0bbe47a2dad46c6224db3761cf3792f970984712956a05be19c8f6c5d8b30d4458f5bf74625dc49d2ce7b7afc99e6f1c4505afd724bda45687ba1a8c64fbdaecf946d275080ab346bd4ce53123d9b7817fb69114a6ae84e73adae8dccc02de77857fbe81a823612e6a1a079564e1ba6f12ff7c03e9fa58aacec85cbd438b090cc4d79654d51b514b42fa706ab7fe68df42fef906a2cf467a1dd46494c67620bea644578a8e43ed5aaeba6e921d88af27699cab829e4a1f25f56418bfef37ff7c03d1e7a146712e99a48ec0307edf7efef906a21e204fbee6d294f776f9fa5a92cec2335567812336437cfd482f4dc58ebba8f0e90763e4f79dea9f6f2083645475ceeae1bb243203f1b52383a5e754491f4c92d6ec8cf8da9151741ee67dbd75dab36a53d5d78fe8b25587d6146a5a4cd40b13e06947e82671d1c9e85af0559d1c0c63dff2fef986311f8cce44ef4449cb4f33104f2fa203990fa6919a1129c3169cec6945e8866605aea6b96549755888b0a715d18194c1b5733d3f0a953e33104f2ba203d171a4f936606895972cdfd9d38ad00db39a90aac368b5e88cd881785a111d48196d569bca32d5e0621f8da715d1818c9cb2cc61e8d261329e883dad08dde4f968bada11cd10cd583b104f2ba203998f4629222c929ae53b7b9a111dc88747336a51b169c3ce88a719a11b998f66d0508ad454ad5d654f33a203998f86b5901a9cd3a5e6799a111dc8c85901229a9bb9ab5b3403f134237453785612b9d5ac4b87937d34be66440bbb3264682521ba8c8d3bcbbe6ea4ccdd00ad7aa5a93b52bc9a81f8ba913a9f0c131569bd50b103f1b523554beeacf5953e9962dd59f63523fa48a82954bb425eec307cad880a5de9491f499bebd7be15c9be56a455f5abb94bef4ded7bb633e26b45da2c645ad73aa28bb07d85977dad88d6dd4553b5b5a4cf6614f30a2ffb5a915e590bbcac8391a21fcc387c9d481fa5b6d447eaa953b25b01d9d7890c95b9225a78d7f38b222377d9d789cc57de5d67a32b4be64eb41988af13191f5ebeabfe93aaaf4d114f23c2373a80aa129b44d95e6a351e317b1a111d48d51cd1f998c5afba23330e4f1fa2e3d007d3663b817c7e1d619e8c781a11bea1f964a453553fd4aa4d11f134223a909a49abaa2a5a69523310114f1fa2e3188d54ee923e16aa5dec84783a11bee13cb7ab94218dc6d45f33104f2fa203a953739b52553d001b07209e5644c731fa74cddc93569a956c8a785a11be991bdfb3d0a42634c4bec2134f2ba203a95acfd4ace57fcf79748355f1b4223a10151a7d2292861611a9d981787a11be91ace5c3d0a55a124fff6c06e2e94574206a43d48de446fa60065b8c787a11be29d3a997a17526e938cc0e8d785a111d47ce5a408c5c791a01a3bce26b45d4ab0aab6de722549271efe2eb44ea6cb937c6dcb5e226761cbe4e44eb6d2e3a199da9b596cdd22dbe4e44e585e7192bad33a916fb66b5f83a91f95a753e1a91a11fccca2dbe4ea4cd77cce3ec9ccb145f33105f27d2e6d108528b783e7366cf8a145f27d2137363ad32b396ded689145f27d2f37c8f5899ce1bacf6a848f17522bd4e4ba4eaab1e511f8c7122c5d7898cf964b2d03cc27a71eebbf81a91319f4c5507afb62817ebde8baf111973cdccf32955316ff15e3c7d48be996fb61ba5aa19d224d90367c5d387e840b2f243e6ee9d1ac5610f46144f23a203a9a3b7e997b5dc956265c6d388e41b2dfb9998a89316771767128ba713d18168e5dfb5949152d431934d114f2ba20351e565cdd69a868c96cc8c544f2b926fd4a28a2e5a7500ad66b258ad9e56440792cf2fdd8b5655a2abc70ec4d38be8405a9a8789a9f7aec26bb734aba717c93739a947548336b733d5a29971785a111d872abfd655ba6e3b5ff0bd7a5a111dc73c4e5c2593ccf789c612554f27926f44cb8579a66bf4d4d5b7da04f174223a90dc731bf36c732212fb2aa27a5a111d48e3b9b3aaebb62b5dedd2f57422f9464b299e7351d4a9165b78575f2752e63144c95ad164a9f60c6ff53522e5fcada27aae2bed5bd5ea6b43d4a6ce43084d3996d53b1ba75a7d7d489d2fef46e92d73b52733aaaf0ba9f3b190fa771a4553c48cc3d7843405967ad5ca5d4b5d12c38fe66b42d4ae2765995a219ea7bd4d82345f13d2e63962aaa32ad1c8be8668be1ea4cf2723f3fb6fe72f02d827e3eb41faf9c9f018f32d80ad319baf07995fc19b495a734dd2ec7b99e66b42866aabae9ba4c53749b23b33cdd78568c9dd74200ab2dae7992633105f17329a54e9d24a152dbdedf99de6e94244ebfff357ef72ea751ef132b2db3c6d880e44286b29c3452b89645f99354f1ba2e3d027a37e6c9e43acc516bbcdd3868896ffe72f8aaaf8a771f935ebe669447420c24289b59cd1b297ecb7acdbd688fc765fd06ff705fd765fd06ff705fd765fd0bf725fd0fa8868400081010408102840c0008103940dd0100d2820b0800003020d083820f0800004021108482031fc443450818005021708602090818006021b087020d0818ac135a20110044210104160040112044a103041e0040114548d3a201a584180058116045c107841000681180464109841cd8811a2011b046e10c0412007011d047610e041a007011fd48df6211a0842400881210488102842c00881230490104842c348add15a882d58c2600983250c963058c2600983250c963058c264a41dd1c012064b182c61b084c112064b182c61e3238c91b04e02d18c973066c2b80963278c9f3086022c61b084c112cec6b8201a58c2600983250c963058c2600983250c963058c2627c12a281250c963058c260092b4bbefa57af63fb2f0fdf7cffe66dfef71bec9f5efc8f177f78a592d26ecacb173f4e9dbd6965de6ec1a5cfd303f5e58bfff9f3bd6dcb79ef2f6e73b924747f51db67363ddbf73d3ed3b37dc5f3994d4fdc4dc6fbebdb3eb3e989bbf2787f95db67363d717723efaf75fbcca6c7b1d7c1c7d3b37d31f4994dcf316e7ab61b569fd9f4387650f8687af677bf7d5ed3b3bf16ce677aaec0f7ecef88f3999e2bf03dfb0be37ca6e70a7ccffef6389fe9b902dfb3bf4ace677aaec0f7ec6f96f3999e2bf03dfb6be67ca6e70a7ccffece3997e9d9df33f7794dcffe0a3a9fe9b902dfb3bf90ce677aaec0f7ec6fa7f3999e2bf03dfbabea7ca6e70a7ccffede3a9fe9b902dfb3bfc4ce677aaec0f7ec6fb4f3999e2bf03dfbebed5ca6677fa3dde7353dfbcbee7ca6e70a7ccffeee3b9fe9b902dfb3bf0acf677aaec0f7ecefc5f3999e2bf03dfb5bf27ca6e70a7ccffeca3c9fe9b902dfb3bf40cf677aaec0f7ecafd373999efd057a9fd7f4ecefd6f3999e2bf03dfb9bf67ca6e70a7ccffede3d9fe9b902dfb3bf84cf677aaec0f7ec6fe4f3999e2bf03dfbebf97ca6e70a7ccffeb63e9fe9b902dfb3bfbccf657af6d7f57d5ed3b3bfc9cf677aaec0f7eceff5f3999e2bf03dfb5bfe7ca6e70a7ccffeca3f9fe9b902dfb3bf00d0677aaec0f7ecaf03f4999e2bf03dfbcb017da6e70a7ccffea64097e9d9df0df8794dcffeda409fe9b902dfb3bf43d0677aaec0f7ecaf14f4999e2bf03dfb0b067da6e70a7ccffeba419fe9b902dfb3bf7dd0677aaec0f7ec2f23f4999e2bf03dfbcb095da6677f1de1e7353dfb9b0a7da6e70a7ccffede429fe9b902dfb3bfc5d0677aaec0f7ecaf34f4999e2bf03dfbfb0d7da6e70a7ccffeba439fe9b902dfb3bffbd0677aaec0f7b438dfd3afc0f7f438dfd3afc0f7f438dfd3afc0f7f438dfd3afc0f7f438dfd3afc0f7f438dfd3afc0f7f438dfd3afc0f7f438dfd3afc0f7f438df33aec0f78c38df33aec0f78c38df33aec0f78c38df33aec0f78c38df33aec0f78c38df33aec0f78c38df33aec0f78c38df33aec0f78c38df73b802df7388f33d872bf03d8738df73b802df7388f33d872bf03d8738df73b802df7388f33d872bf03d8738df73b802df7388f33d872bf03d8738df737b05bee736cef7dc5e81efb98df33db741bea7ebac7c989ffa09f313677c6e838ccf9a1f4a9f924071d6e736c6fa349d809fe7e7531228cefbdcc6789f4637fc9440433ffed204c5b99fdb18f7d3f8674013a51b9d9e5f989f38fb731b637fccfce49bf48bf313e77fee62fc8f991ff9e5f575176780ee620c90999f4f00f45d9c03ba8b7140667e3e81cf77710ee82ec601617ef813f87c176780ee820cd0af9b9f3803741764807eddfcc4f99fbb20ff539e0cf427cd4f9cffb90bf23f6de5cf27f89fbb38ff730cf23fa8503f65828e7106e81864807ee504c539a06390033213f40916fa1867818e4116e8574e509c073a0679a05f39417126e81864827ee504c5b9a0638c0bea7089e5975dd031ce051d635c50874bec971ad676f313e7824e312ea82f97983f72d1bbf939c599a0538c0932f3f3d136c6767ee23cd029c60375003ae75f5e60a7380f748af140bf7682e23cd029c603d9092a9f80a0380f748af14063ed14e6fa09088ab340a7180b34b053f8491314e7814e311ec84ed02798a0539c09ba8f31416399e8fcd156c66e7eeee34cd07d8c09fa95f3136782ee634cd0af9c9f380f741fe3817ee5fcc459a0fb180bf42be727ce01dd6f1dd0970f6fbf7bfdf8c3bba7c07f797cfdfd8fa7c77fbe7e7cb8397e71f87205bd3ffce9f4b7c39fbf3081f4f77afffbdffdf4e2ed79e8fa4ffff5a717afffaebff2fb971f3ed0d3077efa909f3ec8d387f2f4a13e7d684f1ffad387b17e207ef4fad9b47e38ad9f4eebc7d3faf9b402d08a402b04ad18bc6230c6bf62f08ac12b06af18bc62f08ac12b06af1879c5c82b46c624ad1879c5c82b465e31f28a91578cbc62c88a212b86ac188227b162c88a212b86ac18b262c88a51568cb2629415a3ac18058f7bc5282b465931ca8a51568cba62d415a3ae1875c5a82b46454ead1875c5a82b465d31da8ad1568cb662b415a3ad186dc56848dc15a3ad186dc5e82b465f31fa8ad1578cbe62f415a3af181dab63c5e82bc65831c68a31568cb1628c1563ac1863c5182bc6c012346b108b306115262cc3847598b010135662c2524c588b098b31219a5df2886616bd59f566d99b756f16be59f966e963ed13163fb1210ca261fd130040200001010406102040a0000103040e5036404334a080c002020c083420e080c00302100844202081c4f013d140050216085c2080814006021a086c20c08140072a06d7880640100841400481110448102841c004811304505035ea806860050116045a107041e00501180462109041600635234688066c10b8410007811c047410d8418007811e047c5037da8768200801210486102042a0080123048e10404220090d23b5466b21b6600983250c963058c2600983250c963058c2600993917644034b182c61b084c112064b182c61b0848d8f3046c23a0944335ec29809e3268c9d307ec2180ab084c112064b381be38268600983250c963058c2600983250c963058c260098bf1498806963058c2600983250c963058c2600983250c967031b60cd1c012064b182c61b084c112064b182c61b084c112aec605221a58c2600983250c963058c2600983250c963058c2cd984e44034b182c61b084c112064b182c61b084c112064bb81b8f8b68600983250c963058c2600983250c963058c260090f63a98da786a9064b325892c1920c9664b0248325192cc96049064b32190b8f686049064b325892c1920c9664b0248325192cc96049665331201a5892c1920c9664b0248325192cc9a63a31e589a94f6c818268a64431358a29524c9562ca14b0248325192cc9604916530f211a5892c1920c9664b0248325192cc96049064b3258928b29bf100d2cc96049064b325892c1920c9664b0248325192cc96049064b325892c1920c9664b0248325192cc96049064b325892c1920c9664b0248325192cc96049064b325892c1920c9664b0248325192cc96049064b325892c1920c9664b0248325192cc96049064b3258226089802502960858226089802502960858226089802502960858226089802502960858226089802502960858226089802502960858226089802502960858226089802502960858226089802502960858226089802502968879e7615e7a98b71ee6b5877def8168e6cd8779f561de7d98971f60898025029608582260898025029608582260898025029608582260898025029608582260898025029608582260898025029608582260898025029608582260898025029608582260898025029608582260898025029608582260898025029608582260898025029608582260898025029614b0a48025052c296049014b0a5852c092029614b0a48025052c296049014b0a5852c092029614b0a48025052c296049014b0a5852c092029614b0a48025052c296049014b0a5852c092029614b0a48025052c296049014b0a5852c092029614b0a48025052c296049014b0a5852c092029614b0a49837a9e655aa79976a5ea69ab7a9f6752aa29917aae68daa79a50a9614b0a48025052c296049014b0a5852c092029614b0a48025052c296049014b0a5852c092029614b0a48025052c296049014b0a5852c092029614b0a48025052c296049014b0a5852c092029614b0a48025052c296049014b0a5852c092029654b0a48225152ca96049054b2a5852c1920a9654b0a48225152ca96049054b2a5852c1920a9654b0a48225152ca96049054b2a5852c1920a965465c9572f5fbc7df8c7c3db87c76f1ede9db7bd1edebe7bfde6f1c51fe869cb2b6d8f24dc7ffbe6ebeffffddb6de78dbe15797bcec025f2f698814be4edd90197c8dba3032ebbaa697b20c0e597de9e077089bcdde47789bcdde377891cb7719fb61bf72ebff4f63ca24be4ed714497c8c7b0c8db13863e29b63d36e8f14b53984453984453984453dcf13eda6ab4cb2f1d26d11426d11426d1b495689f14db6ab4cb2f1d26d11426d11426d1b495689f14db6ab4cb2f1d26d11c26d11c26d1bc95689714e3b0329ac3249ac3249ac3249ae38eca735819cd6112cd6112cd6112cd5b89f649b1b0329ac3249ac3243a8749748efb425d0e2ba3739844e73089ce61129db712ed93626165740e93e81c26d1394ca273dc17ef7358199dc3243a8749740e9368d94ab44b8a4958192d61122d61122d61122d715f4e97b0325ac2245ac2245ac2245ab612ed93626165b48449b48449b48449b4c45d6153c2cae81226d1254ca24b984497b8f36225ac8c2e61125dc224ba844974893b2f56c2cae81226d1254ca24b984497ad44fba45858195dc324ba8649740d93e8ba95689714ab6165740d93e81a26d1354ca26bdc79b11a5646d73089ae61125dc324bac69d17ab6165740d93e81626d12d4ca25bdc79b1165646b730896e6112ddc224bac59d176b6165740b93e81626d12d4ca25bdc79b1165646375f89a6f92d9c5a47e3c1995bef66246192ddc324bbc79d1feb9e65f5abf39397dc698c915b9eb7da6024be12cef395ac8c24b5272ef3ae448c244cd27b98a4f7b8f365ddb3ec7e359f3c33d398df6fd0873f6febc0507c353e27cea597d10a350562696624619adfc334bfc71d40eb9e75f9ab0f4f3eb7d26b6fa3cdeb1931125f0f2089a50977a1c6695e1583818455ed3dcc028cb8f369c3b36c7f351f3cb5a20f7ef45a646403c1e1fba6bd24ea8312d551d3bc721be308abe94798011871a7d7866751ff6a3e772e55d33e97caad89d1bee1fb1ebe26d64aa492baaf423a283390b0927f84c9ff883bdc363c6bfe57e7072f5a7c8ed1b35602799891f8bea66f732988fa40e2d1e745ea1848d81b811126ff23eeecdbc1f315c0abf9e06916c2297761aad9b8af83ef5b7cad812927f50494655e078a71846dbb1fc2e4ff107732eee0f902e0d5f9b98b16203cffd5e6bdf71889ef3bfea1229c673152e78b996a0aa243d8aefc214cfe0f7107e70e9ee5ffabf9e04b6f750ca1cc6314f342f0e0bb05d0c6602d88a6005fd62187b03dfb4398fa1fb6eaef93809ed5ff2bb2bff5adef0e409b2f7cb9abe6e65a66bb240c246c0fff364cef6fb77aef9272b79ef5fe4729e7fbc6bf9ecbebd68a561bdc87a1ed6dd89efe6d98c0dfc61dbbbbf52cf03f4a39df17fc327aed45daa02ac4d92afc6dd826ff6d98a6dfc69dc3bbf52ce93fca395751d7091fa326e9f3ae905c68b63e5a43b90bdbe6bf0b53f5bbb89379779e65fc65d2ddb9cafaf94801252d62464f559298b7287761fbfa7761b27e177754efceb370ff28e75c757d6e24271a49132ef7de8bd9bbb80bdbc6bf0b53f5bbb8a37b779ea5fa4729e72aeb9a7263489befe9ba66deb0bb1577611bf7c730513fc69ddd3b3a9fddeba3974a7d481fb98a7d477b7415f9b977ac89c78dcb7c6527b6a438866ddd1fc334fe187776efe87c76af297ba4b13a2c1983edd1bda3abe67f789332b74db8d5315ba86320615bf7c730c93fc69ddc3b3a9fdc6b697edba8b55e79cc66ca1888ab03d004d4a530cf2ab312b9757b84fee869082ef320cc009ce24eee9d9c4fee95d1dba8ad4b6ff38f29334fde86607e67baf55ce6ee1dd9235c274f437099086106e0147776efe47c764f46237dec691e1a9e8787cdebb593b32318897910cd52a4d79a0d904f61dbf7a7300b708a3bbd77723ebd97472d752a9f94326a2653049c5c3dc145317e0adbb23f85a9fe29eec0debdf3813d1e2df74a5a7ba8e851b54977ef6a032e92ee3e6cd3fe3e4ce7efe30ee9ddfb56fa34bf905027eefae076f1c2edde55f72f732e6cd7fe3e4cd7efe38ee5ddfbd6f63c8fc0b10c19aaaf426273ce55e72f732e6cd7fe3e4cd6efb7b2ee9373bed57c9e776c646eb5943698cdf731c8b587f945ce515813730a6b624efb26e61e3947fb2ee6cff8f5576a6ae31ad751a80c9b72ae27f12f532e6acf9ec29a9ad3bea9b94fcaf956ebf37b8fa58b96ae8d73ee36e55c8fde5fa65cd49e3d853539a77d93739f94f3add5cf5fac2ef3b61dd24ac21c4c22d79ee7972917d6f49cc29a9ed3bee9b94bca916fa5de92506dd41b9332ae353390b0c3f614d6049dc29aa0d3be09ba4fcaf916ea3da981eb5ddd9c265cca62061276d89ec29aa253585374da3745f74939df3a7da4a29c9bf7a84869f6f61c224f85ff28e5a236e129ac493aed9ba4bba4dcbe4bfa33fdd2170fdab549faf9fc5f1b7d1e72cf492a9b334f14d6349dc29aa6d3be69ba4fca7996e99729e77cca6e265c2b9c39534935db948bda63a7b026eab46fa2ee93729e65fa65cab99fab533def4d5a52c67573270b853555a7b0a6eab46faaee9272fbaeea1e29e7da54fd7ca2af6991ccac850a8962ce8cc4b76ab7731026e9fb26eb3e29e759a65fa69cf3b13951cacddbb77bad0aba6e8435ace93a85355da77dd3759f94f32cd32f53cefbcedb31373cd4421669b57673a68072d4f63ae5304ddf776177c9b97d1b768f9c73edc2fee1bc1e716af3384b4fbd9a1bb629ac2d3b85b565a77d5b769f9cf32cd42f73cef9703c8d5a88668f8379bfb782ce0c256c7f3dac4f3bedfbb4fbe49c67a57e9973ce87e1d3c8a9b6cab936e975149b73611bec618ddb49b6aaee93739ea5fa45ce85356ea7b0c6ed14d6b89df68ddb5d526cdfb9dd25c5c2deb687356ea7b0c6edb46fdcee93629ea5f8658a85bd5d0f6bdc4e618ddb69dfb8dd27c53c2befcb1473be8c8ee6fe746d29d792732eb6080debe44e619ddc69dfc9dd25e7f6addc3d72ceb593fb87bbe81a3549225db424b02f78c35abb53586b77dab776f7c939cfcafb32e7dcefa2d3fa3389fad3d26b1b6c461226ea61adde69dfeadd27e53c0befcb94f314f573173319a9f08c2da5b55acd50c2f6ccc37abfd3bef7bb4bceed9bbf7be49c6beff7f3e573c2faa7e5ceb50cd32c87c27ac153582f78daf782f74939dfcabc8fde521bbdf4d6c648c6c5bbb6863fdf3d570a09f736a4d7643718c25ac55358ab78dab78af7c940dfc2bda7e9b0581d7de64edd889d6be7f8f32d785917c2e8238ddc7a32d5857327799b076182bfef1cef9281fbd6f1cff74dc2a10f5b688894a40fde90c7bb917c4f554b2be5716e95d9d2d8b991bccd8330fddf378ef7c940dfa2be0ce5cd68834a95216433d0fde6b9d9d0443ab36662b15f71746e236ff3204cfff76de37d32d0b7c617652097197994b9df6ec4cfb78dfc4515e4dc37de460e53fc7da378979cdb778a7fbebb7146296afd46a33cefc8b1ef397c1bc75fe49c73a7781b394ce3f7bde17d72ceb7c8e751b889d698345f2c15f39ec3b755fc65ca85edc6873583a77d33789f94f3adea35b3b4aeac236561fd3732d2eadb1cfe32e7c2b6e7c3dabfd3befdbb4fcef9d6f13c86faf731585aae89cd97af7cbbc15fa49c73fb771b394cd3f70ddf5d526edff1fd19dddc68eae406672997d7a7936f03f8cb9c0bdb9d0f6bf14efb16ef3e39e75baa6bd5dae60b339a5ba6c552ce53e2cfaf4d2895d93eac09b7d16cee87edd587b578a77d8b779f04f4addbcb18c2a552ee7d1eaa35d6ceb7e3fb791b45c1db734f2afb54ccf7109d1bc09b3c08ebf84efb8eef2e19b86ff9fe8c9b17838867b39af325c3661cce87f35a4ab5f45e5a6716eae6a094733b789b0661eabfefffee9380be357dd3da766a1e6b9dd145ec73773eaa57e73d8c59dad0ff67361aecdc1cdea64198faef9bc1fb24a06f81df479f3d2434fd5a6d43cce6996f6ff87307cfdefa6c9dd832b76e35386c1b3fac333ced3bc3bb64e0be35bcc7b93ddfcef0e7fb2734e9fb2854b97436c9efda28fef2c187e9fdbe31bc4fca855d5fe7da187e7e2b7b4ca11f5366b3a8e09a91846dd4873586a77d63789f940bbbbeceb531fc87effd649151896acd9d8cb573ed137ff9e0c3247ddf17de25e5f68de13d52ceb52ffcb96f4f295ace4ad77c4bc2e620946b5ff8cb071f26e9fb3ef03e29e75bc3f779dd7a2f54b48614627340c0b52dfcfc1650aa5a47d491674b50365d19c9b52dfc651e8429fcbe0fbc4f06fa16f16d8c219566515beba8a68a746d0b7f2e676b1a75944124c9bedc766d0b7f9906617abf6f03ef9280fb3ef0cff94a39d7a6d5a4169629d9377aae5de13fbcd0eb3d274e32dbe51916bb3685bf4883b026f0b46f02ef9380be157dd1042c85e665312577bb95e0da137eee69107f68e05878b6d4330309dbdd0feb004ffb0ef03e09e85bdfcb98d7ce65963c647e13c20cc4d70bf4c44393af2691dcdbc54a08dbdd0feb064ffb6ef03e09e8dc3656139072e19247aa6c9c976b6ff879ae857505e43244e6a969f3aecfb533fc4516843586a77d637897fcdb77867fc6f3a38d532e921440e763e266246177deba3686bf7cf0616abfef0bef9372beb53e0dd192a3e4daa916ad3acd4b5ed73ef1972917b67f1fd6169ef66de17d52ceb9ba1f25894a5bea3535e9f6c8886b9b789b72ecda163e5d448e9274de7785f74839deb78577f9a5a36ebc65d736f097bf739484f3be0bbc4f8a4555ececda05fe32c5a236e439aceb3befbbbefba458544dceae5ddf2f532c6a039ec3babcf3becbbb4b8aeddbbcbbfcd2be12dd479ffb5ed47a919ccc5578ecdae5fd720ac2147bdfe4dd27e3a2aa6e766ef2dec6a8aad5f3ee31e9f6dbbaecdae4fd720ac2047cdfe3dd27e3a28a6e76eef1de34e4dcdd18a5d6aa45b0198873096e2287e9f9bec5bb4bc6ed7bbcbbfcd2be7a5e536aa5b7310f9428e5aa194858051ed6e19df71dde7d322eac0477edf07e3ebe44b50acd2b15d5bd0e3390b0823cacc13bef1bbcfb645c5845eedae0fd7c0546a97dd0bc418fb88a4db9b0023dacc13bef1bbcbba4dcbec3bbc72feddae07d6ed4f69e4955b50f1992d9e8aa6bc3f7cb390853f47d83779f940b2bd15d1bbc9fbf8d53521d946aa7c6526cca8555ec610dde79dfe0dd27e5c26a74d706ef73a3b6f7a2659afaa7caa5253623092bd97398a4e7ada4fba45c5891eedadffd3272588d1ed6ce9df7eddc5d526cdfcfdde5970e9370d776ee9791c3247bdfbddd27c5c2ca70d7eeed9791c3aaf0b066edbc6fd6ee93626165b76bb3f68bc861cdda39ac593bef9bb5bba4d8be5bbbcb2f1d26d161cdda39ac593bef9bb5fba4585859eddaacfd3272984487356be77db3769f140b2ba35d9bb55f460e93e8b0deecbcefcdee9262fbe6ec2ebf749844bbf666bf8c1c26d1fb56ec3e29165646bbb662bf8c1c26d161add779df7add27c5c2ca68d7d6eb9791c3243aacd33aef3badbba4d8bed5fa970f6fbf7bfdf8c3bba7c07f797cfdfd8fa7c77fbe7e7cb8397e71f87205bd3ffce9f4b7c39fbf3081deeb9fdfffeea7176fcf43d77ffaaf3fbd78fd77fd8ddfbffcf0819e3ef0d387fcf4419e3e94a70ff5e9437bfad09f3e8cf503f1a3d7cfa6f5c369fd745a3f9ecafbaf5eea08fff1f0f6e1f19b8777e7f97978fbeef59b47fdcb9fe726edbf97777cf3c37f7efbf02c87497a9e97a9674a8dc6a8095fc14eae5fd4ab372d9792c7a04cad99332d69ffadbde7db7796d14acb346aef6d34330e5f9345c263a4d20709752976205bcf159322be2d77f8a696dcb84b2f347ba0b019896b5f3d9d949c5b9252d318f30aa151cc505c9be9d24d4fa293d1aa70a196eccad97ab6e74b945a2417e9dce65546f922653d3d5cbda1ccadccf610857a320d3f93ebf705354b98594487327462a8e8bc98a1b836e513e549a6aee9cab9d5cb2cd91abe902cf13480af286b9ef4c1e5dc1eb6531533125f43986763291a9cf4c1986ba092eb770f5fb14ab0fedf28258d3ca18f81ecbf8af8ffefd8fe2f
+  references:
+    version: 1
+    00000000:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: Top Down Rewired Controller
+        serializedStates:
+        - id: 1
+        - id: 2
+        - id: 3
+        - id: 4
+        - id: 5
+        - id: 6
+        - id: 7
+        - id: 8
+        - id: 9
+        - id: 10
+        - id: 11
+        - id: 12
+        - id: 13
+        - id: 14
+        - id: 15
+        - id: 16
+    00000001:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: Camera
+        serializedStates:
+        - id: 17
+        - id: 18
+        - id: 19
+    00000002:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: Ground (1)
+        serializedStates:
+        - id: 20
+    00000003:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: floor_2_LOD1
+        serializedStates:
+        - id: 21
+        - id: 22
+        - id: 23
+    00000004:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: TopdownCharacter
+        serializedStates:
+        - id: 24
+        - id: 25
+        - id: 26
+        - id: 27
+        - id: 28
+        - id: 29
+        - id: 30
+        - id: 31
+    00000005:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: Directional Light (1)
+        serializedStates:
+        - id: 32
+        - id: 33
+    00000006:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: floor_2_LOD0
+        serializedStates:
+        - id: 34
+        - id: 35
+        - id: 36
+    00000007:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: EnemySpawner
+        serializedStates:
+        - id: 37
+        - id: 38
+    00000008:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: EnemySpawner (1)
+        serializedStates:
+        - id: 39
+        - id: 40
+    00000009:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: EventSystem (1)
+        serializedStates:
+        - id: 41
+        - id: 42
+    0000000A:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: Canvas
+        serializedStates:
+        - id: 43
+        - id: 44
+    0000000B:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: Corridor_1
+        serializedStates:
+        - id: 45
+    0000000C:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: GameObject
+        serializedStates:
+        - id: 46
+    0000000D:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: Directional Light (2)
+        serializedStates:
+        - id: 47
+        - id: 48
+    0000000E:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: Rewired Input Manager
+        serializedStates:
+        - id: 49
+    0000000F:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: floor_2
+        serializedStates:
+        - id: 50
+        - id: 51
+        - id: 52
+    00000010:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: Plane (1)
+        serializedStates:
+        - id: 53
+        - id: 54
+        - id: 55
+        - id: 56
+    00000011:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedStates: []
+    00000012:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.Camera, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedStates: []
+    00000013:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.AudioListener, UnityEngine.AudioModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        serializedStates: []
+    00000014:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedStates: []
+    00000015:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedStates: []
+    00000016:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedStates: []
+    00000017:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedStates: []
+    00000018:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedStates: []
+    00000019:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedStates: []
+    0000001A:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedStates: []
+    0000001B:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.CapsuleCollider, UnityEngine.PhysicsModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        serializedStates: []
+    0000001C:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.Rigidbody, UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedStates: []
+    0000001D:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.CharacterController, UnityEngine.PhysicsModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        serializedStates: []
+    0000001E:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: TwoGuyGames.GTR.Samples.TopDownCharacterControllerBase, GTR.Samples,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        serializedStates:
+        - id: 57
+        - id: 58
+        - id: 59
+        - id: 60
+        - id: 61
+        - id: 62
+    0000001F:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: TwoGuyGames.GTR.Samples.TopDown_RewiredController, GTR.Samples, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        serializedStates:
+        - id: 63
+        - id: 64
+        - id: 65
+    00000020:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedStates: []
+    00000021:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.Light, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedStates:
+        - id: 66
+    00000022:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedStates: []
+    00000023:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedStates: []
+    00000024:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedStates: []
+    00000025:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedStates: []
+    00000026:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: TwoGuyGames.GTR.Samples.TopDown_SystemEnemyRandomSpawner, GTR.Samples,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        serializedStates:
+        - id: 67
+        - id: 68
+        - id: 69
+    00000027:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedStates: []
+    00000028:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: TwoGuyGames.GTR.Samples.TopDown_SystemEnemyRandomSpawner, GTR.Samples,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        serializedStates:
+        - id: 70
+        - id: 71
+        - id: 72
+    00000029:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedStates: []
+    0000002A:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.EventSystems.BaseInput, UnityEngine.UI, Version=1.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        serializedStates: []
+    0000002B:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.RectTransform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedStates: []
+    0000002C:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: TwoGuyGames.GTR.Samples.TopDown_Score, GTR.Samples, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        serializedStates:
+        - id: 73
+    0000002D:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedStates: []
+    0000002E:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedStates: []
+    0000002F:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedStates: []
+    00000030:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.Light, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedStates:
+        - id: 74
+    00000031:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedStates: []
+    00000032:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedStates: []
+    00000033:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.BoxCollider, UnityEngine.PhysicsModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        serializedStates: []
+    00000034:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.LODGroup, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedStates: []
+    00000035:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedStates: []
+    00000036:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedStates: []
+    00000037:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        serializedStates: []
+    00000038:
+      type: {class: ValueSpaceCollection, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: UnityEngine.MeshCollider, UnityEngine.PhysicsModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        serializedStates: []
+    00000039:
+      type: {class: NumberRange, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: rotationSpeed
+        max: 5000
+        min: 5000
+    0000003A:
+      type: {class: NumberRange, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: runDeceleration
+        max: 8
+        min: 8
+    0000003B:
+      type: {class: NumberRange, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: speed
+        max: 13
+        min: 13
+    0000003C:
+      type: {class: Vector3Range, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: motion
+        radius: 0
+        value: {x: 0.00009890403, y: 0, z: 0.004332429}
+    0000003D:
+      type: {class: Vector3Range, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: moveInput
+        radius: 0
+        value: {x: 0.00009890403, y: 0, z: 0.004332429}
+    0000003E:
+      type: {class: Vector3Range, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: rotation
+        radius: 0
+        value: {x: 0, y: 0, z: 0}
+    0000003F:
+      type: {class: BoolRange, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: shoot
+        value: 0
+    00000040:
+      type: {class: Vector3Range, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: moveInput
+        radius: 0
+        value: {x: 0, y: 0, z: 0}
+    00000041:
+      type: {class: Vector3Range, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: rotation
+        radius: 0
+        value: {x: 0, y: 0, z: 0}
+    00000042:
+      type: {class: NumberRange, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: m_BakedIndex
+        max: 0
+        min: 0
+    00000043:
+      type: {class: NumberRange, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: maxSpawnWaitTime
+        max: 4
+        min: 4
+    00000044:
+      type: {class: NumberRange, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: spawnRate
+        max: 444.5
+        min: 444.5
+    00000045:
+      type: {class: NumberRange, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: spawnWait
+        max: 2.6174192428588867
+        min: 2.6174192428588867
+    00000046:
+      type: {class: NumberRange, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: maxSpawnWaitTime
+        max: 4
+        min: 4
+    00000047:
+      type: {class: NumberRange, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: spawnRate
+        max: 444.5
+        min: 444.5
+    00000048:
+      type: {class: NumberRange, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: spawnWait
+        max: 2.6174192428588867
+        min: 2.6174192428588867
+    00000049:
+      type: {class: NumberRange, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: scoreValue
+        max: 0
+        min: 0
+    0000004A:
+      type: {class: NumberRange, ns: TwoGuyGames.GTR.Core, asm: TwoGuyGames.GTR.Core}
+      data:
+        id: m_BakedIndex
+        max: 0
+        min: 0
